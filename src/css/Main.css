@@ -1,0 +1,117 @@
+* { box-sizing: border-box }
+html, body {
+  display: table;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+.box {
+  margin: auto;
+  padding: 50px 30px;
+  width: 350px;
+  min-height: 115px;
+  background: #fff;
+  border-left: 8px solid rgb(19, 2, 37);
+  box-shadow: 10px 10px 20px rgba(0,0,0,.15);
+  font: 12px/15px Arial, Helvetica, sans-serif;
+  color: #666;
+  border-radius: 7px;
+}
+h2 {
+  margin: 0 10px;
+  line-height: 40px;
+}
+form {
+  padding: 0 10px 10px;
+}
+
+label {
+  position: absolute;
+  left: -9999px;
+}
+input {
+  position: relative;
+  z-index: 10;
+  margin: 0;
+  padding: 0 7px;
+  width: 250px;
+  height: 30px;
+  border: 1px solid #ccc;
+}
+input:focus {
+  z-index: 15;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  outline: 0;
+}
+#password {
+  top:-1px;
+  margin-bottom: 5px;
+}
+
+
+
+.adminlogin {
+  display: block;
+}
+.adminloginhide {
+    display: none;
+  }
+.login{
+    display: block;
+}
+.loginhide{
+    display: none; 
+}
+.signup{
+    display: block;
+}
+.signuphide
+{
+    display: none; 
+}
+
+
+.register-form input {
+  margin: -1px 0;
+}
+#first-name {
+  margin-top: 5px;
+}
+.captcha {
+  margin: 10px 0;
+}
+.captcha label {
+  position: relative;
+  left: 0;
+}
+#submit {
+  /* float: right; */
+  padding: 8px;
+  width: 96%;
+  background: rgb(19, 2, 37);
+  color: rgb(255, 255, 255);
+  border-color: transparent;
+  box-shadow: 10px 10px 20px rgba(0,0,0,.15);
+  border-radius: 3px;
+}
+.togglebtn
+{
+    padding: 7px;
+  width: 89%;
+  background: rgb(19, 2, 37);
+  color: rgb(255, 255, 255);
+  border-color: transparent;
+  box-shadow: 10px 10px 20px rgba(0,0,0,.15);
+  border-radius: 3px;
+}
+#submit:hover {
+    background: rgb(19, 2, 37);
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+}

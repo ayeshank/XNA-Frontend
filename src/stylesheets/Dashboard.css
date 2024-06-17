@@ -1,0 +1,57 @@
+.dashboard
+{
+  margin-top: 5rem;
+ }
+ .DivForPC
+ {
+   margin-left: 70%;
+ }
+.sbar
+{
+  display: block;
+}
+@media screen and (max-width: 2560px) 
+{
+  .dashboardin {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 1rem;
+    justify-items: stretch;
+    margin-top: 4rem;
+}
+}
+@media screen and (max-width: 1440px) 
+{
+  .dashboardin {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1rem;
+    justify-items: stretch;
+    margin-top: 4rem;
+}
+}
+@media screen and (max-width: 568px) 
+{
+  .dashboardin {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 1rem;
+    justify-items: stretch;
+    margin-top: 4rem;
+}
+    
+ .DivForPC
+ {
+   margin-left: 7%;
+ }
+ /* .dashboard
+{
+  margin-top: 11%;
+  margin-left: 2%;
+ } */
+    /* .sbar
+{
+  display: none;
+} */
+}

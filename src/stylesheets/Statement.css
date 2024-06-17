@@ -1,0 +1,56 @@
+.statement
+{
+    width:90%;
+    margin-left: 5%;
+    overflow-x: auto;
+    margin-top: 2%;
+    font-size: small;
+    font-weight: bold;
+}
+.stath6{
+    background-color: rgb(236, 89, 20);
+    padding: 1%;
+    color: white;
+    width: 100%;
+}
+.LG1
+{
+    float:left;
+}
+
+.LG2
+{
+    float:right
+}
+.MT
+{
+margin-top: 5%;
+}
+@media screen and (max-width: 768px) 
+{
+    .statement
+{
+    width:82%;
+    margin-left: 13%;
+    overflow-x: auto;
+    margin-top: 1%;
+}
+.stath6{
+    padding: 2%;
+}
+.LG1
+{
+    float: none;
+    font-size: x-small;
+}
+
+.LG2
+{
+    float:none;
+    font-size: x-small;
+}
+.MT
+{
+margin-top: 2%;
+}
+}

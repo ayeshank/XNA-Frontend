@@ -1,0 +1,26 @@
+table, tr,td {
+    border: 1px solid rgb(24, 22, 22);
+    border-collapse: collapse;
+    text-align: left;
+    padding-top: 10px;
+    /* background-color: rgb(15, 15, 15); */
+  }
+  table{
+    color: white;
+  }
+  tr{
+    color: black; 
+  }
+  th, td {
+    background-color: #ffffff;
+  }
+  .navbtn
+  {
+    padding: 8px;
+    width: 15%;
+    background: rgb(19, 2, 37);
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+    box-shadow: 10px 10px 20px rgba(0,0,0,.15);
+    border-radius: 3px;
+  }

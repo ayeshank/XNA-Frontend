@@ -1,0 +1,28 @@
+.main{
+    margin-top:5%;
+}
+.firstdiv
+{
+    width: 30%;
+    float:left;
+    background-color: rgb(255, 255, 255);
+}
+.seconddiv
+{
+width: 70%;
+float: right;
+background-color: cadetblue;
+}
+@media screen and (max-width: 768px) 
+{
+    .firstdiv
+    {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    .seconddiv
+    {
+    width: 100%;
+    background-color: cadetblue;
+    }
+}

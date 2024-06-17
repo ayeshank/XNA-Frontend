@@ -1,0 +1,21 @@
+.ModifyMD
+{
+    margin-left: 3%;
+    width: 96%;
+    height: 90%;
+    font-size: small;
+    font-weight: bold;
+}
+
+.stath6{
+    padding: 1%;
+}
+@media screen and (max-width: 768px) 
+{
+    .ModifyMD
+    {
+        margin-left: 12%;
+        width: 88%;
+        height: 90%;
+    }   
+}

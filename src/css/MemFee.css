@@ -1,0 +1,28 @@
+table 
+        {
+            width: 40%;
+            box-shadow: 2px 10px 30px rgb(172, 169, 169);
+        }
+        table, th, td 
+        {
+            border: solid 1px rgb(243, 237, 237);
+            border-collapse: collapse;
+           
+            padding: 2px 3px;
+            text-align: center;
+        }
+      
+        input[type='button'] 
+        {
+            cursor: pointer;
+            border: none;
+            color: rgb(27, 27, 27);
+        }
+        
+        /* input[type='text'], select 
+        {
+            text-align: center;
+            border: solid 1px #CCC;
+            width: auto;
+            padding: 2px 3px;
+        } */

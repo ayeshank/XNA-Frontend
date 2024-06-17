@@ -1,0 +1,65 @@
+.hideseekbar
+{
+    display: none;
+}
+.logout_button
+{
+    padding-top: 0.73rem !important;
+}
+.navTextColor
+{
+    color: rgb(151, 148, 148);
+    text-decoration: none;
+    font-size: small;
+    font-weight: 500;
+}
+.navTextColor:hover
+{
+    color:whitesmoke
+}
+.navdropdownTextColor
+{
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 500;
+}
+.navdropdownTextColor:hover
+{
+    color: black;
+}
+.navdropdowntitle
+{
+    font-size: small;
+    font-weight: 500;
+}
+.offcanvas-header
+{
+    background-color: black;
+}
+.nav-link {
+    color: #979494 !important;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #ffffff;
+}
+.dropdown-menu {
+    background-color: black !important;
+}
+.navdropdownTextColor {
+    color: #979494 !important;
+}
+.dropdown, .dropend, .dropstart, .dropup {
+    padding-top: 0.25rem !important;
+}
+/* language */
+.dropdown-item {
+    color: #979494 !important;
+}
+@media screen and (max-width: 768px) 
+{
+    .hideseekbar
+    {
+        display: block;
+    }   
+}
