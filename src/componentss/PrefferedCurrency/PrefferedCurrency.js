@@ -56,6 +56,9 @@ export default function PrefferedCurrency() {
       const response = await fetch(`${BASE_URL}/prefferedCurrencyGET`, {
         credentials: "include",
         cache: "no-cache",
+        headers: {
+          "Cache-Control": "no-cache",
+        },
       });
       const json = await response.json();
       setprefCurrData(json.pfg);

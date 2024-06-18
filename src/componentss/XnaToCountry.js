@@ -23,6 +23,10 @@ export default function XnaToCountry() {
     async function fetchaud() {
       const response = await fetch(`${BASE_URL}/audlastget`, {
         credentials: "include",
+        cache: "no-cache",
+        headers: {
+          "Cache-Control": "no-cache",
+        },
       });
       const json = await response.json();
       setAUDbal(json.al);

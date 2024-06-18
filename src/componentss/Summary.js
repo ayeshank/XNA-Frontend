@@ -51,6 +51,9 @@ export default function Summary() {
       const response2 = await fetch(`${BASE_URL}/audlastget`, {
         credentials: "include",
         cache: "no-cache",
+        headers: {
+          "Cache-Control": "no-cache",
+        },
       });
       const json2 = await response2.json();
       setData(json2.al);
