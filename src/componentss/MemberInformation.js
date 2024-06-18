@@ -106,7 +106,7 @@ export default function MemberInformation() {
       }
     }
     fetchBooks();
-  }, []);
+  }, [memberData]);
 
   return memberData != null ? (
     <div className="xnarates">

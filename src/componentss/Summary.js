@@ -57,7 +57,7 @@ export default function Summary() {
     fetchBooks();
     calwithdraw();
     caldeposit();
-  }, []);
+  }, [summary]);
   if (!summary.length || !data.length) {
     return <Loading />;
   }
