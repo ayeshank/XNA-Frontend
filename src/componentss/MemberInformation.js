@@ -96,6 +96,7 @@ export default function MemberInformation() {
       try {
         const response = await fetch(`${BASE_URL}/memberinfo`, {
           credentials: "include",
+          cache: "no-cache",
         });
         const json = await response.json();
         setMemberData(json.memberLogin);

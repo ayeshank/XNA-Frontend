@@ -44,11 +44,13 @@ export default function Summary() {
     async function fetchBooks() {
       const response = await fetch(`${BASE_URL}/statement`, {
         credentials: "include",
+        cache: "no-cache",
       });
       const json = await response.json();
       setSummary(json.stat);
       const response2 = await fetch(`${BASE_URL}/audlastget`, {
         credentials: "include",
+        cache: "no-cache",
       });
       const json2 = await response2.json();
       setData(json2.al);
