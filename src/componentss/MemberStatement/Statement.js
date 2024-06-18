@@ -55,7 +55,7 @@ export default function Statement() {
     fetchBooks();
     caldeposit();
     calwithdraw();
-  }, [statement]);
+  }, []);
   if (!statement.length) {
     return null;
   }

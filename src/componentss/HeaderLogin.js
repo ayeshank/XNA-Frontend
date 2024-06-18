@@ -52,7 +52,7 @@ export default function HeaderLogin() {
       setMemberData(json.memberLogin);
     }
     fetchMemInfo();
-  }, [memberData]);
+  }, []);
 
   return (
     <div>

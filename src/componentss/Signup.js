@@ -144,7 +144,7 @@ export default function Signup() {
       setData2(json2.ml);
     }
     fetchBooks();
-  }, [data2, data]);
+  }, []);
 
   return (
     <div className="signup">

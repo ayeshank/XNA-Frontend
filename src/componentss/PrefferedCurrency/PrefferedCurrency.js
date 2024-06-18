@@ -61,7 +61,7 @@ export default function PrefferedCurrency() {
       // console.log(json.pfg);
     }
     fetchBooks();
-  }, [prefCurrData]);
+  }, []);
 
   if (!prefCurrData.length) {
     return <Loading />;

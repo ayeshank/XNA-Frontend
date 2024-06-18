@@ -132,7 +132,7 @@ export default function SellAmount() {
     fetchAud();
     calwithdraw();
     caldeposit();
-  }, [summary]);
+  }, []);
   if (!data.length || !summary.length || !databs.length) {
     return <Loading />;
   }
