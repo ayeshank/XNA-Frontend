@@ -35,6 +35,7 @@ export default function Login() {
       credentials: "include",
       headers: {
         "Content-Type": "application/json",
+        "Cache-Control": "no-cache",
       },
       body: JSON.stringify({ memberno, password }),
     });
